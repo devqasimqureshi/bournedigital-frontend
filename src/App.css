@@ -1,0 +1,33 @@
+.group {
+    width: 300px;
+    cursor: pointer;
+}
+
+.card {
+    width: 300px;
+    cursor: pointer;
+}
+
+.apploader {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.6;
+    background: white;
+}
+
+.taskdetails {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: "600px";
+    min-width: "500px";
+    background-color: white;
+    border: 0px;
+    padding: 10px
+}
